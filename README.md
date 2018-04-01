@@ -56,7 +56,7 @@ The results were as follows:
 
 | Petal Length  | Petal Width&nbsp;&nbsp; |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
+| 'function used' | Content Cell  |
 | Content Cell  | Content Cell  |
 
 # References 
