@@ -1,22 +1,22 @@
 ### Sem-1-Python-Project &nbsp;&nbsp;&nbsp;&nbsp; Fisher's Iris Dataset &nbsp;&nbsp;&nbsp;&nbsp; Eimear Butler April 2018
 
 ## Who was Ronald Fisher?
-Ronald Fisher was a British statistician and biologist who in 1936 published an article on "The use of multiple measurements in taxonomic problems"<sup>4</sup>. Fisher used the Iris dataset as an example of linear discriminant analysis <sup>1</sup>. 
+Ronald Fisher was a British statistician and biologist who in 1936 published an article on "The use of multiple measurements in taxonomic problems" <sup>4</sup>. Fisher used the Iris dataset as an example of linear discriminant analysis <sup>1</sup>. 
 
 Medical-dictionary.thefreedictionary.com describes discriminant analysis as: 
 
 *"a form of multivariate analysis in which the objective is to establish a discriminate function. The function (typically a mathematical formula) discriminates between individuals in the population and allocates each of them to a group within the population. The function is established on the basis of a series of measurements or observations made on the individuals."* <sup>2</sup>
 
-Fisher therefore used this data to demonstrate that features can be combines to characterize two or more classes of objects or events.
+Fisher therefore used this data to demonstrate that features can be combined to characterize two or more classes of objects or events.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/R._A._Fischer.jpg" width="200">
 
  
-However, it was actually Edgar Anderson who had made the measurements in an effort to quantify the variation between the three related Iris species. His paper "The irises of the Gaspe Peninsula," published in 1935 outlined his methods for achieving this. <sup>3</sup>  
+However, it was Edgar Anderson who had actually made the measurements in an effort to quantify the variation between the three related Iris species. His paper "The irises of the Gaspe Peninsula," published in 1935 outlined his methods for achieving this <sup>3</sup>.  
 
 
 ## What is the Fisher Iris Dataset? 
-This dataset contains a 150 records where 5 attributes of Iris flowers are examined:
+This dataset contains a 50 samples where 5 attributes of Iris flowers are examined:
 
 - Petal Length 
 - Petal Width
@@ -32,7 +32,7 @@ The 3 flower species in scope are:
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Kosaciec_szczecinkowaty_Iris_setosa.jpg" width="200">   <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Iris_versicolor_3.jpg" width="200">    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Iris_virginica.jpg" width="200">
 
 
-Two of the three species were collected in the Gaspé Peninsula "all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus" <sup>1</sup>
+Two of the three species were collected in the Gaspé Peninsula "all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus" <sup>1</sup>.
 
 
 ## Why this data is interesting?
