@@ -14,7 +14,7 @@ However, it was Edgar Anderson who had actually made the measurements in an effo
 
 
 ## What is the Fisher Iris Dataset? 
-This dataset contains a 50 samples where 5 attributes of Iris flowers are examined:
+This dataset contains a 50 samples of each species where 5 attributes of Iris flowers are documented:
 
 - Petal Length 
 - Petal Width
