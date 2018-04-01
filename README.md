@@ -1,6 +1,6 @@
 # Sem-1-Python-Project
 
-![picture](en.wikipedia.org/wiki/File:Kosaciec_szczecinkowaty_Iris_setosa.jpg)
+![alt text](https://en.wikipedia.org/wiki/File:Kosaciec_szczecinkowaty_Iris_setosa.jpg)
 
 Fisher
 
