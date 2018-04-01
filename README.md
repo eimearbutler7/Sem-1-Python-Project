@@ -7,10 +7,9 @@ Medical-dictionary.thefreedictionary.com describes discriminant analysis as:
 
 *"a form of multivariate analysis in which the objective is to establish a discriminate function. The function (typically a mathematical formula) discriminates between individuals in the population and allocates each of them to a group within the population. The function is established on the basis of a series of measurements or observations made on the individuals."* <sup>2</sup>
 
+<img align="right" src="https://upload.wikimedia.org/wikipedia/commons/4/46/R._A._Fischer.jpg" width="200">
+
 Fisher therefore used this data to demonstrate that features can be combined to characterize two or more classes of objects or events.
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/46/R._A._Fischer.jpg" width="200">
-
  
 However, it was Edgar Anderson who had actually made the measurements in an effort to quantify the variation between the three related Iris species. His paper "The irises of the Gaspe Peninsula," published in 1935 outlined his methods for achieving this <sup>3</sup>.  
 
