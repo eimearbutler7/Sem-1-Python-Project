@@ -12,7 +12,7 @@ Fisher therefore used this data to demonstrate that features can be combines to 
 <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/R._A._Fischer.jpg" width="200">
 
  
-However, it was actually Edgar Anderson who had made the measurements in an effort to quantify the variation between the three related Iris species. His paper "The irises of the Gaspe Peninsula," published in 1935 outlined his methods for achievin this. <sup>3</sup>  
+However, it was actually Edgar Anderson who had made the measurements in an effort to quantify the variation between the three related Iris species. His paper "The irises of the Gaspe Peninsula," published in 1935 outlined his methods for achieving this. <sup>3</sup>  
 
 
 ## What is the Fisher Iris Dataset? 
