@@ -1,4 +1,4 @@
-### Sem-1-Python-Project Eimear Butler April 2018
+### Sem-1-Python-Project &nbsp;&nbsp;&nbsp;&nbsp; Fisher's Iris Dataset &nbsp;&nbsp;&nbsp;&nbsp; Eimear Butler April 2018
 
 ## Who was Ronald Fisher?
 Ronald Fisher was a British statistician and biologist who in 1936 published an article on "The use of multiple measurements in taxonomic problems"<sup>4</sup>. Fisher used the Iris dataset as an example of linear discriminant analysis <sup>1</sup>. 
@@ -37,8 +37,11 @@ Two of the three species were collected in the Gaspé Peninsula "all from the sa
 
 ## Why this data is interesting?
 
-Apart from the linear discriminant analysis model published by Fisher, this dataset is widely used in data analysis examples as it is real, big enough to be interesting and useful yet relatively simple. The size of the dataset also means it fits well visually onto a computer screen so beginers can see what they are workign with and all data entries are measurements taken in centimetres so no scaling or transformations are required. 
+Apart from the linear discriminant analysis model published by Fisher, this dataset is widely used in data analysis examples as it is real, big enough to be interesting and useful yet relatively simple. The size of the dataset also means it fits well visually onto a computer screen so beginers can see what they are working with and all data entries are measurements taken in centimetres so no scaling or transformations are required. 
 
+
+## Data Investigation
+In order to use Pyhthon to further examine Fisher's Irish Dataset, I used the following code to examine the following atributes of each atribute: 
 
 
 # References 
