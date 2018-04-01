@@ -4,10 +4,9 @@
 Ronald Fisher was a British statistician and biologist who in 1936 published an article on "The use of multiple measurements in taxonomic problems" <sup>4</sup>. Fisher used the Iris dataset as an example of linear discriminant analysis <sup>1</sup>. 
 
 Medical-dictionary.thefreedictionary.com describes discriminant analysis as: 
+<img align="right" src="https://upload.wikimedia.org/wikipedia/commons/4/46/R._A._Fischer.jpg" width="200">
 
 *"a form of multivariate analysis in which the objective is to establish a discriminate function. The function (typically a mathematical formula) discriminates between individuals in the population and allocates each of them to a group within the population. The function is established on the basis of a series of measurements or observations made on the individuals."* <sup>2</sup>
-
-<img align="right" src="https://upload.wikimedia.org/wikipedia/commons/4/46/R._A._Fischer.jpg" width="200">
 
 Fisher therefore used this data to demonstrate that features can be combined to characterize two or more classes of objects or events.
  
