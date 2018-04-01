@@ -54,10 +54,16 @@ The "placeholder" function (%s) in Python allowed me to write a script that coul
 
 The results were as follows: 
 
-| Petal Length  | Petal Width&nbsp;&nbsp; |
-| ------------- | ------------- |
-| 'function used' | Content Cell  |
-| Content Cell  | Content Cell  |
+| Value  | Petal Length  | Petal Width | Sepal Length  | Sepal Width |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| Mean | `git status`  | Content Cell  | Content Cell  | Content Cell  |
+| Median  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Maximum  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Minimum  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Standard Deviation  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Standard Variance  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+
+
 
 # References 
 
