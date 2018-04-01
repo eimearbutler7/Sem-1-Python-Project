@@ -52,7 +52,12 @@ In order to use Python to further examine Fisher's Iris Dataset, I used the code
 
 The "placeholder" function (%s) in Python allowed me to write a script that could be easily replicated for each of the 4 numerical atribute datasets. See comments throuhout the "Fisher_Iris_Script.py" file for further information. 
 
+The results were as follows: 
 
+| Petal Length  | Petal Width&nbsp;&nbsp; |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 # References 
 
