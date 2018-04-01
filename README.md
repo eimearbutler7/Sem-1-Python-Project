@@ -1,6 +1,6 @@
-# Sem-1-Python-Project Eimear Butler April 2018
+### Sem-1-Python-Project Eimear Butler April 2018
 
-# What is the Fisher Iris Dataset? 
+## What is the Fisher Iris Dataset? 
 This dataset contains a 150 records where 5 attributes of Iris flowers are examined:
 -	Petal Length 
 -	Petal Width
@@ -11,8 +11,8 @@ This dataset contains a 150 records where 5 attributes of Iris flowers are exami
 The 3 flower species in scope are: 
 
 
-Iris_setosa 
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Kosaciec_szczecinkowaty_Iris_setosa.jpg" width="300"><img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Iris_versicolor_3.jpg" width="300">
+*Iris setosa*                            *Iris versicolor*                    *Iris virginica*
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Kosaciec_szczecinkowaty_Iris_setosa.jpg" width="300">   <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Iris_versicolor_3.jpg" width="300">    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Iris_virginica.jpg" width="300">
 
 
 Iris_versicolor
@@ -32,5 +32,5 @@ The dataset is big and interesting enough to be non-trivial, but small enough to
 
 # References 
 
-## <sup>1</sup> Anderson, Edgar (1935). "The irises of the Gaspe Peninsula," Bulletin of the American Iris Society, 59, 2–5.
-## Fisher, Ronald A. (1936). "The use of multiple measurements in taxonomic problems." Annals of Eugenics, 7, Part II, 179–188.
+<sup>1</sup> Anderson, Edgar (1935). "The irises of the Gaspe Peninsula," Bulletin of the American Iris Society, 59, 2–5.
+Fisher, Ronald A. (1936). "The use of multiple measurements in taxonomic problems." Annals of Eugenics, 7, Part II, 179–188.
