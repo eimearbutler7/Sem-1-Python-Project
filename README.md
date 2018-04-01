@@ -52,16 +52,16 @@ In order to use Python to further examine Fisher's Iris Dataset, I used the code
 
 The "placeholder" function (%s) in Python allowed me to write a script that could be easily replicated for each of the 4 numerical atribute datasets. See comments throuhout the "Fisher_Iris_Script.py" file for further information. 
 
-The results were as follows: 
+The results were as follows, where x is the relevant dataset: 
 
-| Value  | Petal Length  | Petal Width | Sepal Length  | Sepal Width |
+| Function Used  | Petal Length  | Petal Width | Sepal Length  | Sepal Width |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Mean | `git status`  | Content Cell  | Content Cell  | Content Cell  |
-| Median  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Maximum  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Minimum  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Standard Deviation  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Standard Variance  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| `statistics.mean(x)` | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| `statistics.median(x)`  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| `max(x)`  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| `min(x)`  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| `statistics.stdev(x)`  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| `statistics.variance(x)`  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 
 
 
