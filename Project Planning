@@ -5,7 +5,7 @@ Project Planning:
 26 March - WORK TRAVEL - get some initial information for Fisher Data Set (FDS) and focus on initial investigation
 27 March - WORK TRAVEL - review python tutorial and highlight relevant sections that may be useful during interogation of FDS, aim to have first draft of FDS background investigation 
 28 March - 1st April HOLIDAY
-2/3 April - HOME - access to Visual Studio - additional functions ready to test in VS? e.g. loops/functions?
+2/3 April - HOME - access to Visual Studio - install https://matplotlib.org/users/installing.html for histograms and data spread investiation [additional functions ready to test in VS? e.g. loops/functions? - on hold]
 4 - 11 April - WORK TRAVEL - focus on explaining functions used and why, ensure sufficient comments in github to date. Look into next phase of investigation.
 11 - 22 April - Work from CPH - finish write up
 22 April - HOME - access to Visual Studio - finish python script testing.
@@ -23,15 +23,14 @@ Notes from Video:
 1. Investigation - read me
 
 2. python scripts
-min max average
-median data spread std deviation histogram
+min max average median std deviation - Complete 
+data spread histogram - to do
 
 problem - manage work, break down tasks
-
 keep notes - paragraph here and there builds up
 keep references
 Look up how to build table in "read me"
-histogram, scatter plots - minitab? 
+histogram, scatter plots - minitab? not available 
 pictures...?
 
 
