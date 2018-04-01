@@ -41,7 +41,7 @@ Apart from the linear discriminant analysis model published by Fisher, this data
 
 
 ## Data Investigation
-In order to use Pyhthon to further examine Fisher's Iris Dataset, I used the code detailed in the "Fisher_Iris_Script.py" <sup>5</sup> file within this repository to examine the following values for each atribute: 
+In order to use Python to further examine Fisher's Iris Dataset, I used the code detailed in the "Fisher_Iris_Script.py" <sup>5</sup> file within this repository to examine the following values for each atribute: 
 
 - mean, the average value
 - median, the lowest value
@@ -50,7 +50,7 @@ In order to use Pyhthon to further examine Fisher's Iris Dataset, I used the cod
 - standard deviation, the value representing the exten of deviation for the group as a whole
 - standard variance, the value representing how spread out a data set is
 
-The "placeholder" function (%s) in python allowed me to write a script that could be easily replicated for each of the 4 numerical atribute datasets. See comments throuhout the "Fisher_Iris_Script.py" file for further information. 
+The "placeholder" function (%s) in Python allowed me to write a script that could be easily replicated for each of the 4 numerical atribute datasets. See comments throuhout the "Fisher_Iris_Script.py" file for further information. 
 
 
 
@@ -64,4 +64,4 @@ The "placeholder" function (%s) in python allowed me to write a script that coul
 
 <sup>4</sup> Fisher, Ronald A. (1936). "The use of multiple measurements in taxonomic problems." Annals of Eugenics, 7, Part II, 179–188.
 
-<sup>5</sup> Sem-1-Python-Project/Fisher_Iris_Script.py
+<sup>5</sup> https://github.com/eimearbutler7/Sem-1-Python-Project/Fisher_Iris_Script.py
