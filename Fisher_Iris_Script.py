@@ -2,7 +2,7 @@ import statistics #ensures Python has all the capabilities from the Python Stand
 import csv #ensures python has all the capabiliites from the Python Standard Library to open and work with csv files 
 
 print ("Fisher's Iris Data, Sem-1-Python-Project, Eimear Butler April 2018") #print title
-
+print()
 print ("Petal Length ", "Petal Width ", "Sepal Length ", "Sepal Width") #print row headers 
 
 with open ("iris.csv") as f:
