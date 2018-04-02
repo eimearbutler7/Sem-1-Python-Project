@@ -1,5 +1,5 @@
-import statistics #ensures Python has all the capabilities to identify and execute statistic functions e.g. statistics.mean()
-import csv #ensures python has all the capabiliites to open and work with csv files 
+import statistics #ensures Python has all the capabilities from the Python Standard Library to identify and execute statistic functions e.g. statistics.mean()
+import csv #ensures python has all the capabiliites from the Python Standard Library to open and work with csv files 
 
 print ("Fisher's Iris Data, Sem-1-Python-Project, Eimear Butler April 2018") #print title
 
@@ -46,10 +46,29 @@ print()
 
 
 z = "Petal Width" #z now changes to next Iris atribute 
-r = 1 #new atribute is asociated with next row
+r = 1 #new atribute is asociated with next row #all the rest of this script for Petal Width remains the same, only 'z' and 'r' are changed
+y = [] 
+with open('iris.csv') as f: 
+  for line in f:
+    iris = line.split(',')[r] 
+    y.append(iris) 
 
+x = [float(i) for i in y] 
 
-print("From Fisher's Iris Data, the %s has been interrogated as follows:" %(z,)) #the same code as row 38-45 can now be used to print results for the new Iris atribute
+a = statistics.mean(x) 
+a = "%.3f" % a     
+b = statistics.median(x)
+b = "%.1f" % b
+c = max(x)
+c = "%.1f" % c
+d = min(x)
+d = "%.1f" % d
+e = statistics.stdev(x)
+e = "%.3f" % e
+f = statistics.variance(x)
+f = "%.3f" % f
+
+print("From Fisher's Iris Data, the %s has been interrogated as follows:" %(z,)) 
 print("The mean of %s is: %s" %(z, a))
 print("The median of %s is: %s" %(z, b))
 print("The maximum of %s is: %s" %(z, c))
@@ -59,9 +78,28 @@ print("The standard variance of %s is: %s" %(z, f))
 print()
 
 
-z = "Sepal Length" 
-r = 2 
+z = "Sepal Length" #z now changes to next Iris atribute 
+r = 2 #new atribute is asociated with next row #all the rest of this script for Petal Width remains the same, only 'z' and 'r' are changed
+y = [] 
+with open('iris.csv') as f: 
+  for line in f:
+    iris = line.split(',')[r] 
+    y.append(iris) 
 
+x = [float(i) for i in y] 
+
+a = statistics.mean(x) 
+a = "%.3f" % a     
+b = statistics.median(x)
+b = "%.1f" % b
+c = max(x)
+c = "%.1f" % c
+d = min(x)
+d = "%.1f" % d
+e = statistics.stdev(x)
+e = "%.3f" % e
+f = statistics.variance(x)
+f = "%.3f" % f
 
 print("From Fisher's Iris Data, the %s has been interrogated as follows:" %(z,))
 print("The mean of %s is: %s" %(z, a))
@@ -73,9 +111,28 @@ print("The standard variance of %s is: %s" %(z, f))
 print()
 
 
-z = "Sepal Width" 
-r = 3 
+z = "Sepal Width" #z now changes to next Iris atribute
+r = 3 #new atribute is asociated with next row #all the rest of this script for Petal Width remains the same, only 'z' and 'r' are changed
+y = [] 
+with open('iris.csv') as f: 
+  for line in f:
+    iris = line.split(',')[r] 
+    y.append(iris) 
 
+x = [float(i) for i in y] 
+
+a = statistics.mean(x) 
+a = "%.3f" % a     
+b = statistics.median(x)
+b = "%.1f" % b
+c = max(x)
+c = "%.1f" % c
+d = min(x)
+d = "%.1f" % d
+e = statistics.stdev(x)
+e = "%.3f" % e
+f = statistics.variance(x)
+f = "%.3f" % f
 
 print("From Fisher's Iris Data, the %s has been interrogated as follows:" %(z,))
 print("The mean of %s is: %s" %(z, a))
