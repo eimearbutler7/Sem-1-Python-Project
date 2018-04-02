@@ -39,7 +39,7 @@ Apart from the linear discriminant analysis model published by Fisher, this data
 
 
 ## Data Investigation
-In order to use Python to further examine Fisher's Iris Dataset, I used the code detailed in the "Fisher_Iris_Script.py" <sup>5</sup> file within this repository to examine the following values for each atribute: 
+In order to use Python to further examine Fisher's Iris Dataset, the code detailed in the "Fisher_Iris_Script.py" <sup>5</sup> file within this repository, was used to examine the following values for each atribute: 
 
 - mean, the average value
 - median, the midpoint
@@ -61,6 +61,11 @@ The results were as follows, where x is the relevant dataset<sup>7</sup>:
 | `statistics.stdev(x)`  | 0.828  | 0.434  | 1.764  | 0.763  |
 | `statistics.variance(x)`  | 0.686  | 0.188  | 3.113  | 0.582  |
 
+
+## Data Distribution
+In order to investigate the distribution of the data, histograms were constructed from Python using the imported matplotlib Python Standard Library. The resulting histograms, with normalised data and related curve are displayed below for all 4 atributes in all 3 species of Iris. 
+
+![picture]()
 
 
 # References 
