@@ -54,12 +54,12 @@ The results were as follows, where x is the relevant dataset:
 
 | Function Used  | Petal Length  | Petal Width | Sepal Length  | Sepal Width |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| `statistics.mean(x)` | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| `statistics.median(x)`  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| `max(x)`  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| `min(x)`  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| `statistics.stdev(x)`  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| `statistics.variance(x)`  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| `statistics.mean(x)` | 5.843  | 5.843  | 5.843  | 5.843  |
+| `statistics.median(x)`  | 5.8  | 5.8  | 5.8  | 5.8  |
+| `max(x)`  | 7.9  | 7.9  | 7.9  | 7.9  |
+| `min(x)`  | 4.3  | 4.3  | 4.3  | 4.3  |
+| `statistics.stdev(x)`  | 0.828  | 0.828  | 0.828  | Content Cell  |
+| `statistics.variance(x)`  | 0.686  | 0.686  | 0.686  | Content Cell  |
 
 
 
