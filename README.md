@@ -65,7 +65,15 @@ The results were as follows, where x is the relevant dataset<sup>7</sup>:
 ## Data Distribution
 In order to investigate the distribution of the data, histograms were constructed from Python using the imported matplotlib Python Standard Library. The resulting histograms, with normalised data and related curve are displayed below for all 4 atributes in all 3 species of Iris. 
 
-![picture]()
+![alt text](https://github.com/eimearbutler7/Sem-1-Python-Project/blob/master/zFigure_1.png)
+
+![alt text](https://github.com/eimearbutler7/Sem-1-Python-Project/blob/master/zFigure_2.png)
+
+![alt text](https://github.com/eimearbutler7/Sem-1-Python-Project/blob/master/zFigure_3.png)
+
+![alt text](https://github.com/eimearbutler7/Sem-1-Python-Project/blob/master/zFigure_4.png)
+
+From reviewing the histograms, it appears the da
 
 
 # References 
