@@ -41,25 +41,25 @@ Apart from the linear discriminant analysis model published by Fisher, this data
 ## Data Investigation
 In order to use Python to further examine Fisher's Iris Dataset, the code detailed in the "Fisher_Iris_Script.py" <sup>5</sup> file within this repository, was used to examine the following values for each atribute: 
 
-- mean, the average value
-- median, the midpoint
-- maximum, the highest value
-- minimum, the lowest value
-- standard deviation, the value representing the exten of deviation for the group as a whole
-- standard variance, the value representing how spread out a data set is
+- mean: the average value
+- median: the midpoint
+- maximum: the highest value
+- minimum: the lowest value
+- standard deviation: the value representing the exten of deviation for the group as a whole
+- standard variance: the value representing how spread out a data set is
 
-The "placeholder" function (%s) in Python allowed me to write a script that could be easily replicated for each of the 4 numerical atribute datasets. See comments throughout the "Fisher_Iris_Script.py" file for further information. 
+The "placeholder" function (%s) in Python allowed a script to be written that could be easily replicated for each of the 4 numerical atribute datasets. See comments throughout the "Fisher_Iris_Script.py" file for further information. 
 
 The results were as follows, where x is the relevant dataset<sup>7</sup>: 
 
-| Function Used  | Petal Length  | Petal Width | Sepal Length  | Sepal Width |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| `statistics.mean(x)` | 5.843  | 3.054  | 3.759  | 1.199  |
-| `statistics.median(x)`  | 5.8  | 3.0  | 4.3  | 1.3  |
-| `max(x)`  | 7.9  | 4.4  | 6.9 | 2.5  |
-| `min(x)`  | 4.3  | 2.0  | 1.0  | 0.1  |
-| `statistics.stdev(x)`  | 0.828  | 0.434  | 1.764  | 0.763  |
-| `statistics.variance(x)`  | 0.686  | 0.188  | 3.113  | 0.582  |
+| Values  | Function Used  | Petal Length  | Petal Width | Sepal Length  | Sepal Width |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Mean  | `statistics.mean(x)` | 5.843  | 3.054  | 3.759  | 1.199  |
+| Median  | `statistics.median(x)`  | 5.8  | 3.0  | 4.3  | 1.3  |
+| Maximum  | `max(x)`  | 7.9  | 4.4  | 6.9 | 2.5  |
+| Minimum  | `min(x)`  | 4.3  | 2.0  | 1.0  | 0.1  |
+| Standard Deviation  | `statistics.stdev(x)`  | 0.828  | 0.434  | 1.764  | 0.763  |
+| Standard Variance  | `statistics.variance(x)`  | 0.686  | 0.188  | 3.113  | 0.582  |
 
 
 ## Data Distribution
