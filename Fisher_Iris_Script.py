@@ -28,7 +28,7 @@ x = [float(i) for i in y] #change the 'y' string list, into a floating number ve
 a = statistics.mean(x) # Python Standard Library 9.7. statistics — Mathematical statistics functions
 a = "%.3f" % a     # round to the third decimal point  https://stackoverflow.com/questions/455612/limiting-floats-to-two-decimal-points
 b = statistics.median(x)
-b = "%.1f" % bsssss
+b = "%.1f" % b
 c = max(x)
 c = "%.1f" % c
 d = min(x)
@@ -101,6 +101,7 @@ print("The standard variance of %s is: %s" %(z, f))
 print()
 print("A histogram (Figure %s) representing %s distribution has also printed using the matplotlib function" %(r+1, z))
 print()
+
  
 mu = statistics.mean(x)
 sigma = statistics.stdev(x)
@@ -165,6 +166,42 @@ plt.plot(bins, y, 'r--')
 
 plt.show() 
 
+#additional histograms created to separate Iris-versicolor and Iris-virginica data from Iris-setosa as from reviewing the first histogram for Sepal Length, it appears there may be 2 distinct curves
+x = (x[50:]) #x now becomes just the data for Iris-versicolor and Iris-virginica i.e. data from index 50 to the end
+
+mu = statistics.mean(x)
+sigma = statistics.stdev(x)
+bins = 50 
+n, bins, patches = plt.hist(x, bins, normed=1, facecolor='g', alpha=0.1) 
+
+plt.xlabel('%s' %(z)) 
+plt.ylabel('Frequency') 
+plt.title('Histogram of %s for Iris-versicolor and Iris-virginica Only'%(z))  
+plt.axis([0, 7, 0, 1]) #X axis min and Max, Y axis min and max have been MANUALLY adjusted to ensure best representation of data including if normal transformation was needed. I did try to use min (d) and max (c) but this did not work well enough
+y = mlab.normpdf(bins, mu, sigma) 
+plt.plot(bins, y, 'r--') 
+
+plt.show()
+
+x = (x[:49]) #x now becomes just the data for Iris-setosa i.e. the first 50 data points - from index 0 to 49
+
+mu = statistics.mean(x)
+sigma = statistics.stdev(x)
+bins = 50 
+n, bins, patches = plt.hist(x, bins, normed=1, facecolor='g', alpha=0.1) 
+
+plt.xlabel('%s' %(z)) 
+plt.ylabel('Frequency') 
+plt.title('Histogram of %s for Iris-setosa Only'%(z))  
+plt.axis([0, 7, 0, 4]) #X axis min and Max, Y axis min and max have been MANUALLY adjusted to ensure best representation of data including if normal transformation was needed. I did try to use min (d) and max (c) but this did not work well enough
+y = mlab.normpdf(bins, mu, sigma) 
+plt.plot(bins, y, 'r--') 
+
+plt.show()
+
+print("Two further Histograms are also printed representing %s distribution for just Iris-versicolor and Iris-virginica (Figure %sa) and Iris-setosa (Figure %sb) " %(z, r+1, r+1))
+print()
+
 z = "Sepal Width" #z now changes to next Iris atribute 
 r = 3 #new atribute is asociated with next row #all the rest of this script for Petal Width remains the same except the histogram parameter adjustments which were done manually to ensure best representation of data
 y = []  
@@ -213,3 +250,39 @@ y = mlab.normpdf(bins, mu, sigma)
 plt.plot(bins, y, 'r--') 
 
 plt.show() 
+
+#additional histograms created to separate Iris-versicolor and Iris-virginica data from Iris-setosa as from reviewing the first histogram for Sepal Width, it appears there may be 2 distinct curves
+x = (x[50:]) #x now becomes just the data for Iris-versicolor and Iris-virginica i.e. data from index 50 to the end
+
+mu = statistics.mean(x)
+sigma = statistics.stdev(x)
+bins = 50 
+n, bins, patches = plt.hist(x, bins, normed=1, facecolor='g', alpha=0.1) 
+
+plt.xlabel('%s' %(z)) 
+plt.ylabel('Frequency') 
+plt.title('Histogram of %s for Iris-versicolor and Iris-virginica Only'%(z))  
+plt.axis([0, 3, 0, 5]) #X axis min and Max, Y axis min and max have been MANUALLY adjusted to ensure best representation of data including if normal transformation was needed. I did try to use min (d) and max (c) but this did not work well enough
+y = mlab.normpdf(bins, mu, sigma) 
+plt.plot(bins, y, 'r--') 
+
+plt.show()
+
+x = (x[:49]) #x now becomes just the data for Iris-setosa i.e. the first 50 data points - from index 0 to 49
+
+mu = statistics.mean(x)
+sigma = statistics.stdev(x)
+bins = 50 
+n, bins, patches = plt.hist(x, bins, normed=1, facecolor='g', alpha=0.1) 
+
+plt.xlabel('%s' %(z)) 
+plt.ylabel('Frequency') 
+plt.title('Histogram of %s for Iris-setosa Only'%(z))  
+plt.axis([0, 3, 0, 15]) #X axis min and Max, Y axis min and max have been MANUALLY adjusted to ensure best representation of data including if normal transformation was needed. I did try to use min (d) and max (c) but this did not work well enough
+y = mlab.normpdf(bins, mu, sigma) 
+plt.plot(bins, y, 'r--') 
+
+plt.show()
+
+print("Two further Histograms are also printed representing %s distribution for just Iris-versicolor and Iris-virginica (Figure %sa) and Iris-setosa (Figure %sb) " %(z, r+1, r+1))
+print()
