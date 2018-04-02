@@ -1,12 +1,12 @@
-import statistics
-import csv
+import statistics #ensures Python has all the capabilities to identify and execute statistic functions e.g. statistics.mean()
+import csv #ensures python has all the capabiliites to open and work with csv files 
 
 print ("Petal Length ", "Petal Width ", "Sepal Length ", "Sepal Width")
 
 with open ("iris.csv") as f:
   for line in f:
     print ("{:>7} {:>12} {:>13} {:>12}" .format(line.split(',')[0],line.split(',')[1],line.split(',')[2],line.split(',')[3]))
-print()
+print() #print full list of data in clear format, removing commas and spacing nicely
 
 z = "Petal Length" #row description, change as needed
 r = 0 #row index number, chenge in accordance with description
