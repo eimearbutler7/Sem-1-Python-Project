@@ -14,7 +14,7 @@ However, it was Edgar Anderson who had actually made the measurements in an effo
 
 
 ## What is the Fisher Iris Dataset? 
-This dataset contains a 50 samples of each species where 5 attributes of Iris flowers are documented:
+This dataset contains a 50 samples of each species where 5 attributes of Iris flowers are documented<sup>5</sup>:
 
 - Petal Length 
 - Petal Width
@@ -22,7 +22,7 @@ This dataset contains a 50 samples of each species where 5 attributes of Iris fl
 - Sepal width
 - Class
 
-The 3 flower species in scope are: 
+The 3 flower species in scope are<sup>5</sup>: 
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Iris setosa* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Iris versicolor* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Iris virginica*
@@ -72,5 +72,7 @@ The results were as follows, where x is the relevant dataset:
 <sup>3</sup> Anderson, Edgar (1935). "The irises of the Gaspe Peninsula," Bulletin of the American Iris Society, 59, 2–5.
 
 <sup>4</sup> Fisher, Ronald A. (1936). "The use of multiple measurements in taxonomic problems." Annals of Eugenics, 7, Part II, 179–188.
+
+<sup>5</sup> http://archive.ics.uci.edu/ml/datasets/Iris
 
 <sup>5</sup> https://github.com/eimearbutler7/Sem-1-Python-Project/Fisher_Iris_Script.py
