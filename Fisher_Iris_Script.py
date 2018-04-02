@@ -60,7 +60,7 @@ n, bins, patches = plt.hist(x, bins, normed=1, facecolor='g', alpha=0.1) #ref: h
 
 plt.xlabel('%s' %(z)) #x axis name
 plt.ylabel('Frequency') #y azis name
-plt.title('Histogram of %s'%(z)) #Histogram Title 
+plt.title('Figure %s: Histogram of %s'%(r+1, z)) #Histogram Title 
 plt.axis([4, 8, 0, 1]) #X axis min and Max, Y axis min and max
 y = mlab.normpdf(bins, mu, sigma) #create histogram data
 plt.plot(bins, y, 'r--') #plot histogram
@@ -110,7 +110,7 @@ n, bins, patches = plt.hist(x, bins, normed=1, facecolor='g', alpha=0.1)
 
 plt.xlabel('%s' %(z)) 
 plt.ylabel('Frequency') 
-plt.title('Histogram of %s'%(z))  
+plt.title('Figure %s: Histogram of %s'%(r+1, z))  
 plt.axis([2, 5, 0, 2]) #X axis min and Max, Y axis min and max have been MANUALLY adjusted to ensure best representation of data including if normal transformation was needed. I did try to use min (d) and max (c) but this did not work well enough
 y = mlab.normpdf(bins, mu, sigma) 
 plt.plot(bins, y, 'r--') 
@@ -159,7 +159,7 @@ n, bins, patches = plt.hist(x, bins, normed=1, facecolor='g', alpha=0.1)
 
 plt.xlabel('%s' %(z)) 
 plt.ylabel('Frequency') 
-plt.title('Histogram of %s'%(z))  
+plt.title('Figure %s: Histogram of %s'%(r+1, z)) 
 plt.axis([0, 7, 0, 1]) #X axis min and Max, Y axis min and max have been MANUALLY adjusted to ensure best representation of data including if normal transformation was needed. I did try to use min (d) and max (c) but this did not work well enough
 y = mlab.normpdf(bins, mu, sigma) 
 plt.plot(bins, y, 'r--') 
@@ -176,7 +176,7 @@ n, bins, patches = plt.hist(x, bins, normed=1, facecolor='g', alpha=0.1)
 
 plt.xlabel('%s' %(z)) 
 plt.ylabel('Frequency') 
-plt.title('Histogram of %s for Iris-versicolor and Iris-virginica Only'%(z))  
+plt.title('Figure %sa: Histogram of %s for Iris-versicolor and Iris-virginica Only'%(r+1, z))  
 plt.axis([0, 7, 0, 1]) #X axis min and Max, Y axis min and max have been MANUALLY adjusted to ensure best representation of data including if normal transformation was needed. I did try to use min (d) and max (c) but this did not work well enough
 y = mlab.normpdf(bins, mu, sigma) 
 plt.plot(bins, y, 'r--') 
@@ -192,7 +192,7 @@ n, bins, patches = plt.hist(x, bins, normed=1, facecolor='g', alpha=0.1)
 
 plt.xlabel('%s' %(z)) 
 plt.ylabel('Frequency') 
-plt.title('Histogram of %s for Iris-setosa Only'%(z))  
+plt.title('Figure %sb: Histogram of %s for Iris-setosa Only'%(r+1, z))  
 plt.axis([0, 7, 0, 4]) #X axis min and Max, Y axis min and max have been MANUALLY adjusted to ensure best representation of data including if normal transformation was needed. I did try to use min (d) and max (c) but this did not work well enough
 y = mlab.normpdf(bins, mu, sigma) 
 plt.plot(bins, y, 'r--') 
@@ -244,7 +244,7 @@ n, bins, patches = plt.hist(x, bins, normed=1, facecolor='g', alpha=0.1)
 
 plt.xlabel('%s' %(z)) 
 plt.ylabel('Frequency') 
-plt.title('Histogram of %s'%(z)) 
+plt.title('Figure %s: Histogram of %s'%(r+1, z)) 
 plt.axis([0, 3, 0, 4]) #X axis min and Max, Y axis min and max have been MANUALLY adjusted to ensure best representation of data including if normal transformation was needed. I did try to use min (d) and max (c) but this did not work well enough
 y = mlab.normpdf(bins, mu, sigma)
 plt.plot(bins, y, 'r--') 
@@ -261,7 +261,7 @@ n, bins, patches = plt.hist(x, bins, normed=1, facecolor='g', alpha=0.1)
 
 plt.xlabel('%s' %(z)) 
 plt.ylabel('Frequency') 
-plt.title('Histogram of %s for Iris-versicolor and Iris-virginica Only'%(z))  
+plt.title('Figure %sa: Histogram of %s for Iris-versicolor and Iris-virginica Only'%(r+1, z)) 
 plt.axis([0, 3, 0, 5]) #X axis min and Max, Y axis min and max have been MANUALLY adjusted to ensure best representation of data including if normal transformation was needed. I did try to use min (d) and max (c) but this did not work well enough
 y = mlab.normpdf(bins, mu, sigma) 
 plt.plot(bins, y, 'r--') 
@@ -277,7 +277,7 @@ n, bins, patches = plt.hist(x, bins, normed=1, facecolor='g', alpha=0.1)
 
 plt.xlabel('%s' %(z)) 
 plt.ylabel('Frequency') 
-plt.title('Histogram of %s for Iris-setosa Only'%(z))  
+plt.title('Figure %sb: Histogram of %s for Iris-setosa Only'%(r+1, z))  
 plt.axis([0, 3, 0, 15]) #X axis min and Max, Y axis min and max have been MANUALLY adjusted to ensure best representation of data including if normal transformation was needed. I did try to use min (d) and max (c) but this did not work well enough
 y = mlab.normpdf(bins, mu, sigma) 
 plt.plot(bins, y, 'r--') 
