@@ -42,7 +42,7 @@ Apart from the linear discriminant analysis model published by Fisher, this data
 In order to use Python to further examine Fisher's Iris Dataset, I used the code detailed in the "Fisher_Iris_Script.py" <sup>5</sup> file within this repository to examine the following values for each atribute: 
 
 - mean, the average value
-- median, the lowest value
+- median, the midpoint
 - maximum, the highest value
 - minimum, the lowest value
 - standard deviation, the value representing the exten of deviation for the group as a whole
