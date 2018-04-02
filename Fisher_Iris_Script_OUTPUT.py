@@ -160,6 +160,8 @@ The minimum of Petal Length is: 4.3
 The standard deviation of Petal Length is: 0.828
 The standard variance of Petal Length is: 0.686
 
+A histogram (Figure 1) representing Petal Length distribution has also printed using the matplotlib function
+
 From Fisher's Iris Data, the Petal Width has been interrogated as follows:
 The mean of Petal Width is: 3.054
 The median of Petal Width is: 3.0
@@ -167,6 +169,8 @@ The maximum of Petal Width is: 4.4
 The minimum of Petal Width is: 2.0
 The standard deviation of Petal Width is: 0.434
 The standard variance of Petal Width is: 0.188
+
+A histogram (Figure 2) representing Petal Width distribution has also printed using the matplotlib function
 
 From Fisher's Iris Data, the Sepal Length has been interrogated as follows:
 The mean of Sepal Length is: 3.759
@@ -176,6 +180,10 @@ The minimum of Sepal Length is: 1.0
 The standard deviation of Sepal Length is: 1.764
 The standard variance of Sepal Length is: 3.113
 
+A histogram (Figure 3) representing Sepal Length distribution has also printed using the matplotlib function
+
+Two further Histograms are also printed representing Sepal Length distribution for just Iris-versicolor and Iris-virginica (Figure 3a) and Iris-setosa (Figure 3b)
+
 From Fisher's Iris Data, the Sepal Width has been interrogated as follows:
 The mean of Sepal Width is: 1.199
 The median of Sepal Width is: 1.3
@@ -183,4 +191,8 @@ The maximum of Sepal Width is: 2.5
 The minimum of Sepal Width is: 0.1
 The standard deviation of Sepal Width is: 0.763
 The standard variance of Sepal Width is: 0.582
-PS C:\Users\patjbutler\Desktop\GMIT\Week 6 & Project>
+
+A histogram (Figure 4) representing Sepal Width distribution has also printed using the matplotlib function
+
+Two further Histograms are also printed representing Sepal Width distribution for just
+Iris-versicolor and Iris-virginica (Figure 4a) and Iris-setosa (Figure 4b)
