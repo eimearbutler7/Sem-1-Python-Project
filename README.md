@@ -3,10 +3,10 @@
 ## Who was Ronald Fisher?
 Ronald Fisher was a British statistician and biologist who in 1936 published an article on "The use of multiple measurements in taxonomic problems" <sup>4</sup>. Fisher used the Iris dataset as an example of linear discriminant analysis <sup>1</sup>. 
 
-Medical-dictionary.thefreedictionary.com describes discriminant analysis as: 
+Medical-dictionary.thefreedictionary.com<sup>2</sup> describes discriminant analysis as: 
 <img align="right" src="https://upload.wikimedia.org/wikipedia/commons/4/46/R._A._Fischer.jpg" width="200">
 
-*"a form of multivariate analysis in which the objective is to establish a discriminate function. The function (typically a mathematical formula) discriminates between individuals in the population and allocates each of them to a group within the population. The function is established on the basis of a series of measurements or observations made on the individuals."* <sup>2</sup>
+*"a form of multivariate analysis in which the objective is to establish a discriminate function. The function (typically a mathematical formula) discriminates between individuals in the population and allocates each of them to a group within the population. The function is established on the basis of a series of measurements or observations made on the individuals."* 
 
 Fisher therefore used this data to demonstrate that features can be combined to characterize two or more classes of objects or events.
  
@@ -14,7 +14,7 @@ However, it was Edgar Anderson who had actually made the measurements in an effo
 
 
 ## What is the Fisher Iris Dataset? 
-This dataset contains a 50 samples of each species where 5 attributes of Iris flowers are documented<sup>5</sup>:
+This dataset contains a 50 samples of each species where 5 attributes of Iris flowers are documented<sup>6</sup>:
 
 - Petal Length 
 - Petal Width
@@ -22,7 +22,7 @@ This dataset contains a 50 samples of each species where 5 attributes of Iris fl
 - Sepal width
 - Class
 
-The 3 flower species in scope are<sup>5</sup>: 
+The 3 flower species in scope are<sup>6</sup>: 
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Iris setosa* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Iris versicolor* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Iris virginica*
@@ -48,18 +48,18 @@ In order to use Python to further examine Fisher's Iris Dataset, I used the code
 - standard deviation, the value representing the exten of deviation for the group as a whole
 - standard variance, the value representing how spread out a data set is
 
-The "placeholder" function (%s) in Python allowed me to write a script that could be easily replicated for each of the 4 numerical atribute datasets. See comments throuhout the "Fisher_Iris_Script.py" file for further information. 
+The "placeholder" function (%s) in Python allowed me to write a script that could be easily replicated for each of the 4 numerical atribute datasets. See comments throughout the "Fisher_Iris_Script.py" file for further information. 
 
-The results were as follows, where x is the relevant dataset: 
+The results were as follows, where x is the relevant dataset<sup>7</sup>: 
 
 | Function Used  | Petal Length  | Petal Width | Sepal Length  | Sepal Width |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| `statistics.mean(x)` | 5.843  | 5.843  | 5.843  | 5.843  |
-| `statistics.median(x)`  | 5.8  | 5.8  | 5.8  | 5.8  |
-| `max(x)`  | 7.9  | 7.9  | 7.9  | 7.9  |
-| `min(x)`  | 4.3  | 4.3  | 4.3  | 4.3  |
-| `statistics.stdev(x)`  | 0.828  | 0.828  | 0.828  | Content Cell  |
-| `statistics.variance(x)`  | 0.686  | 0.686  | 0.686  | Content Cell  |
+| `statistics.mean(x)` | 5.843  | 3.054  | 3.759  | 1.199  |
+| `statistics.median(x)`  | 5.8  | 3.0  | 4.3  | 1.3  |
+| `max(x)`  | 7.9  | 4.4  | 6.9 | 2.5  |
+| `min(x)`  | 4.3  | 2.0  | 1.0  | 0.1  |
+| `statistics.stdev(x)`  | 0.828  | 0.434  | 1.764  | 0.763  |
+| `statistics.variance(x)`  | 0.686  | 0.188  | 3.113  | 0.582  |
 
 
 
@@ -73,6 +73,8 @@ The results were as follows, where x is the relevant dataset:
 
 <sup>4</sup> Fisher, Ronald A. (1936). "The use of multiple measurements in taxonomic problems." Annals of Eugenics, 7, Part II, 179–188.
 
-<sup>5</sup> http://archive.ics.uci.edu/ml/datasets/Iris
-
 <sup>5</sup> https://github.com/eimearbutler7/Sem-1-Python-Project/Fisher_Iris_Script.py
+
+<sup>6</sup> http://archive.ics.uci.edu/ml/datasets/Iris
+
+<sup>7</sup> https://github.com/eimearbutler7/Sem-1-Python-Project/Fisher_Iris_Script_OUTPUT.py
