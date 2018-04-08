@@ -2,12 +2,12 @@ Project Planning:
 
 25 March - review project scope and goals, create plan. HOME - access to Visual Studio - start using python build in functions to interogate data. Basic interrogation complete. 
 
-26 March - WORK TRAVEL - get some initial information for Fisher Data Set (FDS) and focus on initial investigation
-27 March - WORK TRAVEL - review python tutorial and highlight relevant sections that may be useful during interogation of FDS, aim to have first draft of FDS background investigation 
+26 March - WORK TRAVEL - get some initial information for Fisher Data Set (FDS) and focus on initial investigation (COMPLETE)
+27 March - WORK TRAVEL - review python tutorial and highlight relevant sections that may be useful during interogation of FDS, aim to have first draft of FDS background investigation (COMPLETE, worked a lot more on script than expected)
 28 March - 1st April HOLIDAY
-2/3 April - HOME - access to Visual Studio - install https://matplotlib.org/users/installing.html for histograms and data spread investiation 
-4 - 11 April - WORK TRAVEL - focus on explaining functions used and why, ensure sufficient comments in github to date. Look into next phase of investigation.
-11 - 22 April - Work from CPH - finish write up - Time for scatter plots?
+2/3 April - HOME - access to Visual Studio - install https://matplotlib.org/users/installing.html for histograms and data spread investiation (COMPLETE)
+4 - 11 April - WORK TRAVEL - focus on explaining functions used and why, ensure sufficient comments in github to date (COMPLETE). Look into next phase of investigation.
+11 - 22 April - Work from CPH - finish write up - Time for scatter plots, look into numpy?
 22 April - HOME - access to Visual Studio - finish python script testing.
 22 April - Ready for submission
 27 - 28 April - contingency time although limited access to Visual Studio
