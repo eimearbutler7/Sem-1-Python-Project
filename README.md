@@ -48,7 +48,7 @@ In order to use Python to further examine Fisher's Iris Dataset, the code detail
 - standard deviation: the value representing the exten of deviation for the group as a whole
 - standard variance: the value representing how spread out a data set is
 
-To run this Python script the user must update the Iris Atribute Title (z) and associated data (r) values. 
+To run this Python script the user must update the iris atribute title (z) and associated data (r) values. 
 
 `z = "Petal Width"` this value changes depending on which Iris atribute we are examining 
 
