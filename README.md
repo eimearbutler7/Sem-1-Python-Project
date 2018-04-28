@@ -83,29 +83,29 @@ The results were as follows, where x is the relevant dataset<sup>7</sup>:
 
 
 ## Data Distribution
-In order to investigate the distribution of the data, histograms were constructed from Python using the imported matplotlib plotting library. The following script produces histograms: 
+In order to investigate the distribution of the data, histograms were constructed from Python using the imported matplotlib plotting library. The following script produced the histograms with `x` again being the same list of atribute data from above: 
 
 `mu = statistics.mean(x)`
 
 `sigma = statistics.stdev(x)`
 
-`bins = 50` 
+`bins = 50` The number of bars in the Histogram
 
-`n, bins, patches = plt.hist(x, bins, normed=1, facecolor='g', alpha=0.1)`
+`n, bins, patches = plt.hist(x, bins, normed=1, facecolor='g', alpha=0.1)` normed = normalisd to 1, facecolour = colour of bars, alpha = increasing in values of 0.1
 
-`plt.xlabel('%s' %(z))` 
+`plt.xlabel('%s' %(z))`  x axis name
 
-`plt.ylabel('Frequency')`
+`plt.ylabel('Frequency')` y axis name
 
-`plt.title('Figure %s: Histogram of %s'%(r+1, z))`  
+`plt.title('Figure %s: Histogram of %s'%(r+1, z))`  Histogram Title 
 
 `plt.axis([2, 5, 0, 2])` NOTE: X axis min and Max, Y axis min and max have been MANUALLY adjusted for each histogram to ensure best representation of data including if normal transformation was needed. min (d) and max (c) was tried but this did not work well enough. This was the only manual adjustment needed while running the script for each atribute.
 
-`y = mlab.normpdf(bins, mu, sigma)` 
+`y = mlab.normpdf(bins, mu, sigma)`  Create histogram data
 
-`plt.plot(bins, y, 'r--')` 
+`plt.plot(bins, y, 'r--')`  Plot histogram
 
-`plt.show()` 
+`plt.show()` Show histogram
 
 
 
