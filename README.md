@@ -93,7 +93,7 @@ In order to investigate the distribution of the data, histograms were constructe
 
 ![alt text](https://github.com/eimearbutler7/Sem-1-Python-Project/blob/master/zFigure_4.png)
 
-From reviewing the histograms, it appears the data for Petal Length and Width can fit a normal distribution curve reasonably well however there are 2 distinct peaks for the Sepal Length and Width meaning the curve is skewed. By reviewing the data it indicated the *Iris sertosa* data is an outlier to the *Iris virginica* and *Iris versicolor*.
+From reviewing the histograms, it appears the data for Petal Length and Width can fit a normal distribution curve reasonably well however there are 2 distinct peaks for the Sepal Length and Width meaning the curve is skewed. Referencing the data, it indicates the *Iris sertosa* data is an outlier to the *Iris virginica* and *Iris versicolor*.
 
 Further histograms were performed on just the Iris virginica* and *Iris versicolor* data (Figures 3a and 4a) and *Iris sertosa* data (Figures 3b and 4b)<sup>5</sup> to confirm this.
 
@@ -106,7 +106,7 @@ Further histograms were performed on just the Iris virginica* and *Iris versicol
 ![alt text](https://github.com/eimearbutler7/Sem-1-Python-Project/blob/master/zFigure_4b.png)
 
 ## Conclusion
-The brief analysis of this data inticates that Sepal Length may be an atribute in which the differentiation of *Iris Setosa* may from *Iris virginica* and *Iris versicolor* may be made. Further analysis of this is recommended.
+The brief analysis of Fisher's Iris data shows the power of Python scripting to interogate the results and using matplotlib, create histograms. The data examination herer inticates that Sepal Length may be an atribute in which the differentiation of *Iris Setosa* may from *Iris virginica* and *Iris versicolor* may be made which is in line with other published studies on the subject. Further work on the script is recommended to see if the the `def` function could be better incorporated. 
 
 
 # References 
