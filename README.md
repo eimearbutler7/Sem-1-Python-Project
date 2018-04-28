@@ -83,7 +83,33 @@ The results were as follows, where x is the relevant dataset<sup>7</sup>:
 
 
 ## Data Distribution
-In order to investigate the distribution of the data, histograms were constructed from Python using the imported matplotlib plotting library. The resulting histograms, with normalised data and related curve are displayed below for all 4 atributes in all 3 species of Iris (Figures 1-4)<sup>5</sup>. 
+In order to investigate the distribution of the data, histograms were constructed from Python using the imported matplotlib plotting library. The following script produces histograms: 
+
+`mu = statistics.mean(x)`
+
+`sigma = statistics.stdev(x)`
+
+`bins = 50` 
+
+`n, bins, patches = plt.hist(x, bins, normed=1, facecolor='g', alpha=0.1)`
+
+`plt.xlabel('%s' %(z))` 
+
+`plt.ylabel('Frequency')`
+
+`plt.title('Figure %s: Histogram of %s'%(r+1, z))`  
+
+`plt.axis([2, 5, 0, 2])` NOTE: X axis min and Max, Y axis min and max have been MANUALLY adjusted for each histogram to ensure best representation of data including if normal transformation was needed. min (d) and max (c) was tried but this did not work well enough. This was the only manual adjustment needed while running the script for each atribute.
+
+`y = mlab.normpdf(bins, mu, sigma)` 
+
+`plt.plot(bins, y, 'r--')` 
+
+`plt.show()` 
+
+
+
+The resulting histograms, with normalised data and related curve are displayed below for all 4 atributes in all 3 species of Iris (Figures 1-4)<sup>5</sup>. 
 
 ![alt text](https://github.com/eimearbutler7/Sem-1-Python-Project/blob/master/zFigure_1.png)
 
