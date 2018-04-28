@@ -106,7 +106,7 @@ Further histograms were performed on just the Iris virginica* and *Iris versicol
 ![alt text](https://github.com/eimearbutler7/Sem-1-Python-Project/blob/master/zFigure_4b.png)
 
 ## Conclusion
-The brief analysis of Fisher's Iris data shows the power of Python scripting to interogate the results and using matplotlib, create histograms. The data examination herer inticates that Sepal Length may be an atribute in which the differentiation of *Iris Setosa* may from *Iris virginica* and *Iris versicolor* may be made which is in line with other published studies on the subject. Further work on the script is recommended to see if the the `def` function could be better incorporated. 
+The brief analysis of Fisher's Iris data shows the power of Python scripting to interogate the results and using matplotlib, create histograms. The data examination herer inticates that Sepal Length may be an atribute in which the differentiation of *Iris Setosa* may from *Iris virginica* and *Iris versicolor* may be made which is in line with other published studies on the subject. Further work on the script is recommended to see if the the `def` function could be better incorporated. Unfortunately time did not permit this to occur during this project.
 
 
 # References 
